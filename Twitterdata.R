@@ -5,10 +5,10 @@ library(scales)
 
 #This code came from the following blog post
 # https://medium.com/the-artificial-impostor/analyzing-tweets-with-r-92ff2ef990c6
-consumer_key <- "oXFk74DS3yAY68tpSiwPInPEh"
-consumer_secret <- "uQH95x6c31uWi6QObf5e5FGo7r9xMtIqSU4IgNhpEkXxp8cQpN"
-access_token <- "396371309-s5JAtNxV977SCdrMAFFUCNsQ8qrtoPsglj2Kpsmy"
-access_secret <- "klrMJUpc0o2rixeIaPTH70dfF0wE7bar562Tux1eumsjv"
+consumer_key <- ""
+consumer_secret <- ""
+access_token <- ""
+access_secret <- ""
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
