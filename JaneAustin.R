@@ -3,6 +3,9 @@ library(tidytext)
 library(stringr)
 library(janeaustenr)
 
+#This code from the TidyText mining website 
+#https://www.tidytextmining.com/sentiment.html
+
 #Creating a tibble that has sentances organized into chapter and line
 original_books <- austen_books() %>% group_by(book) %>% mutate(linenumber = row_number(),
          chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",
